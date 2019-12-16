@@ -66,6 +66,7 @@ public class Main {
     ////////////////////////////
 
     // Check if Graph is constructable with Havel Hakimi algorithm.
+    // Array represents the sequence of degrees in our graph
     private static boolean havelHakimi(int[] arr) {
         int[] removedZeroesArr = removeZeroes(arr);
         if (removedZeroesArr.length == 0)
