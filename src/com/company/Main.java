@@ -65,7 +65,7 @@ public class Main {
     // HAVEL HAKIMI ALGORITHM //
     ////////////////////////////
 
-    // Returns true if it's possible that everyone is telling the truth
+    // Check if Graph is constructable with Havel Hakimi algorithm.
     private static boolean havelHakimi(int[] arr) {
         int[] removedZeroesArr = removeZeroes(arr);
         if (removedZeroesArr.length == 0)
